@@ -1,0 +1,24 @@
+{
+  "name": "telegram-channel-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/japanoronha/telegram-channel-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/japanoronha/telegram-channel-actions/issues"
+  },
+  "homepage": "https://github.com/japanoronha/telegram-channel-actions#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.40.0",
+    "node-telegram-keyboard-wrapper": "^2.0.1"
+  }
+}
