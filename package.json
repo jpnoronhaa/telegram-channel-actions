@@ -19,6 +19,7 @@
   "homepage": "https://github.com/japanoronha/telegram-channel-actions#readme",
   "dependencies": {
     "node-telegram-bot-api": "^0.40.0",
-    "node-telegram-keyboard-wrapper": "^2.0.1"
+    "node-telegram-keyboard-wrapper": "^2.0.1",
+    "telegraf": "^3.36.0"
   }
 }
