@@ -1,7 +1,7 @@
 const Telegraf = require('telegraf')
 const { Router, Markup } = Telegraf
 
-const telegram = new Telegraf('1103248349:AAG-Frbh1jBI-NXu3t3Py4BwcYujxhIeVik')
+const telegram = new Telegraf('1084242414:AAEpmyLPpn4TPmxa_2sBleaHrEoYdOjoFdw')
 
 const inlineMessageRatingKeyboard = Markup.inlineKeyboard([
   [Markup.urlButton('Comercial🎯', 'https://t.me/connectesitesuporte') ],
@@ -12,6 +12,7 @@ const inlineMessageRatingKeyboard = Markup.inlineKeyboard([
     Markup.urlButton('Facebook🙍','https://www.facebook.com/Connectesite-provedor-de-internet-1882405218535973/')
   ]
 ]).extra()
+
 //A parte de comando automático foi dirada =(
 /*
 telegram.on('new_chat_members', (ctx) => ctx.telegram.sendMessage(
